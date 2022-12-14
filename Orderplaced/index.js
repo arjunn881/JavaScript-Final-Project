@@ -10,6 +10,6 @@ $(document).ready(() => {
     localStorage.setItem('cart-items', JSON.stringify([]))
 
     $('#cart').click(() => {
-        location.assign('./checkout.html')
+        location.assign('../Checkout/index.html')
     })
 })

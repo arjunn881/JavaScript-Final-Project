@@ -26,7 +26,7 @@ $(document).ready(function() {
 
     const detailsPage = (id) => {
         localStorage.setItem('clickedId', JSON.stringify(id))
-        location.assign('./assets/details.html')
+        location.assign('../Details/index.html')
     }
 
     const createProduct = (response) => {
@@ -79,6 +79,6 @@ $(document).ready(function() {
     })
 
     $('#cart').click(() => {
-        location.assign('./assets/checkout.html')
+        location.assign('../Checkout/index.html')
     })
 })

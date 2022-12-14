@@ -137,6 +137,6 @@ $(document).ready(() => {
     } )
     
     $('#cart').click(() => {
-        location.assign('./checkout.html')
+        location.assign('../Checkout/index.html')
     })
 })

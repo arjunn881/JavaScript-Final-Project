@@ -60,10 +60,10 @@ $(document).ready(() => {
     })
 
     $('#place-order').click(() => {
-        location.assign('./orderplaced.html')
+        location.assign('../Orderplaced/index.html')
     })
 
     $('#cart').click(() => {
-        location.assign('./checkout.html')
+        location.assign('../Checkout/index.html')
     })
 })
